@@ -31,19 +31,26 @@ module.exports = {
       "tightest":"-0.065em",
     },
     spacing:{
-      "30":"7.5rem"
+      "4.5":"1.125rem",
+      "30":"7.5rem",
+      "25":"6.25rem",
+      "50":"12.5rem"
+
     },
     container:{
       center:true,
-      DEFAULT:"1rem",  //size Mobile//
-      lg:"0.625rem"  //10px//
+      padding:{
+        DEFAULT: '1rem',
+        lg:"0.625rem"
+      }
+  
     },
     dropshadoe:{
       "4xl":"0 0 10px rgba(0, 0, 0, 0.4) "
     },
     backgroundImage:{
       "home-mobile":"url(../imeges/headerBgMobile.webp)",
-      "home-desktop":"url(../imeges/headerBgMobile.webp)"
+      "home-desktop":"url(../imeges/headerBgDesktop.webp)"
     }
    },
    screens: {

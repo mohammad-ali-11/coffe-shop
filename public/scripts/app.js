@@ -61,3 +61,4 @@ overlay.addEventListener('click',closeCart)
 
 navCloseBtn.addEventListener('click',closeNav)
 navShoppingCloseBtn.addEventListener('click',closeCart)    
+
